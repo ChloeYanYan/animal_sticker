@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Major",
+    "gender": "Male",
+    "age": 6,
+    "weight": "11.03",
+    "image": "./images/cat1.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Hudson",
+    "gender": "Male",
+    "age": 12,
+    "weight": "13.23",
+    "image": "./images/cat2.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Casper",
+    "gender": "Male",
+    "age": 1,
+    "weight": "6.62",
+    "image": "./images/cat3.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Mister",
+    "gender": "Male",
+    "age": 14,
+    "weight": "8.82",
+    "image": "./images/cat4.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Nocturne",
+    "gender": "Female",
+    "age": 15,
+    "weight": "6.62",
+    "image": "./images/cat5.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Ivory",
+    "gender": "Female",
+    "age": 5,
+    "weight": "8.82",
+    "image": "./images/cat6.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Suzuki",
+    "gender": "Male",
+    "age": 3,
+    "weight": "8.82",
+    "image": "./images/cat7.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Chicago",
+    "gender": "Male",
+    "age": 3,
+    "weight": "8.82",
+    "image": "./images/cat8.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Smore",
+    "gender": "Male",
+    "age": 5,
+    "weight": "8.82",
+    "image": "./images/cat9.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Tengo",
+    "gender": "Male",
+    "age": 1,
+    "weight": "4.41",
+    "image": "./images/cat10.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Fabrizo",
+    "gender": "Male",
+    "age": 3,
+    "weight": "11.03",
+    "image": "./images/cat11.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Maas",
+    "gender": "Male",
+    "age": 2,
+    "weight": "6.62",
+    "image": "./images/cat12.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Emilio",
+    "gender": "Male",
+    "age": 3,
+    "weight": "52.92",
+    "image": "./images/dog1.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Suzie Q",
+    "gender": "Female",
+    "age": 6,
+    "weight": "70.56",
+    "image": "./images/dog2.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Carnegie",
+    "gender": "Male",
+    "age": 4,
+    "weight": "99.23",
+    "image": "./images/dog3.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Coney",
+    "gender": "Female",
+    "age": 6,
+    "weight": "41.9",
+    "image": "./images/dog4.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Viola",
+    "gender": "Female",
+    "age": 4,
+    "weight": "72.77",
+    "image": "./images/dog5.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Nico",
+    "gender": "Male",
+    "age": 1,
+    "weight": "55.13",
+    "image": "./images/dog6.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Carter",
+    "gender": "Male",
+    "age": 2,
+    "weight": "77.17",
+    "image": "./images/dog7.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Sequoia",
+    "gender": "Male",
+    "age": 2,
+    "weight": "37.48",
+    "image": "./images/dog8.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Eevee",
+    "gender": "Female",
+    "age": 2,
+    "weight": "26.46",
+    "image": "./images/dog9.png",
+    "qr": "./images/qr.png"
+  },
+  {
+    "name": "Marguerite",
+    "gender": "Female",
+    "age": 4,
+    "weight": "46.3",
+    "image": "./images/dog10.png",
+    "qr": "./images/qr.png"
+  },
+      {
+        "name": "Clara",
+        "gender": "Female",
+        "age": 5,
+        "weight": "50.72",
+        "image": "./images/dog11.png",
+        "qr": "./images/qr.png"
+      },
+      {
+        "name": "Brunson",
+        "gender": "Male",
+        "age": 2,
+        "weight": "61.74",
+        "image": "./images/dog12.png",
+        "qr": "./images/qr.png"
+      }
+  ]
