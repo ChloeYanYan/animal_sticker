@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Crop modal -->
+    <div id="crop-modal">
+      <div id="crop-container">
+        <h3>Crop Your Image</h3>
+        <p>Drag to reposition · Pinch or scroll to zoom</p>
+        <div id="crop-image-wrapper">
+          <img id="crop-image" alt="crop preview">
+        </div>
+        <div id="crop-actions">
+          <button id="crop-cancel">Cancel</button>
+          <button id="crop-confirm">Use This Crop</button>
+        </div>
+      </div>
+    </div>
+
+    <p id="intro">I initially designed a series of stickers for shelter animals to support adoption. I then turned this design process into an interactive tool, enabling users to create personalized stickers for their own pets.</p>
+
+    <!-- Custom sticker builder -->
+    <section id="custom-section">
+      <h2>Create Your Pet Sticker</h2>
+      <div id="custom-layout">
+        <div id="custom-form">
+          <div class="inputs-grid">
+            <label>Pet Photo
+              <input type="file" id="pet-image" accept="image/*">
+            </label>
+            <label>Name
+              <input type="text" id="pet-name" placeholder="e.g. Buddy">
+            </label>
+            <label>Age
+              <input type="text" id="pet-age" placeholder="e.g. 3">
+            </label>
+            <label>Gender
+              <input type="text" id="pet-gender" placeholder="Male / Female">
+            </label>
+            <label>Weight (lbs)
+              <input type="text" id="pet-weight" placeholder="e.g. 25.5">
+            </label>
+          </div>
+          <label class="slider-label">Dot Size
+            <div class="slider-row">
+              <span>Fine</span>
+              <input type="range" id="custom-dot-slider" min="2" max="20" value="10">
+              <span>Coarse</span>
+            </div>
+          </label>
+          <div id="custom-preview-area">
+            <div id="canvas-wrapper">
+              <canvas id="custom-canvas"></canvas>
+              <span id="canvas-placeholder">Your Sticker</span>
+            </div>
+            <button id="download-btn">Download PNG</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project description -->
+    <h1 id="description">
+      Shelter Animals <a href="https://www.aspca.org/" target="_blank">(ASPCA Website)</a>
+    </h1>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
